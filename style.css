@@ -1,0 +1,35 @@
+body
+{
+    background: url("images/animation.png") repeat 0 0; 
+    -webkit-animation: slide 20s linear infinite;
+    animation: slide 20s linear infinite;
+    height: 670px;
+}
+@keyframes slide 
+{
+    from { background-position: 0 0; }
+    to { background-position: -400px 0; }
+}
+.container
+{
+    box-shadow: 0 6px 20px 0 rgba(0, 0, 0, 0.2);
+    height: 610px;
+    width: 550px; 
+    background-color: white;
+    font-family: 'Times New Roman';
+}
+.col-md-5
+{
+    background-color: lightslategrey;
+    color: white;
+}
+img
+{   
+    width: 180px;
+}
+h3
+{
+    color: brown;
+}
+
+
